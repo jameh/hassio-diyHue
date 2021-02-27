@@ -42,6 +42,8 @@
 		"mac": "str",
 		"debug": "bool",
 		"deconz_ip": "str",
-		"no_serve_https": "bool"
+		"no_serve_https": "bool",
+		"deconz_web_port": "int",
+		"deconz_ws_port": "int"
 	}
 }
