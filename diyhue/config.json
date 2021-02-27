@@ -34,8 +34,8 @@
 		"debug": false,
 		"deconz_ip": "127.0.0.1",
 		"no_serve_https": false,
-		"deconz_web_port": 8080,
-		"deconz_ws_port": 8081
+		"deconz_web_port": "8080",
+		"deconz_ws_port": "8081"
 	},
 	"schema": {
 		"config_path": "str",
@@ -43,7 +43,7 @@
 		"debug": "bool",
 		"deconz_ip": "str",
 		"no_serve_https": "bool",
-		"deconz_web_port": "int",
-		"deconz_ws_port": "int"
+		"deconz_web_port": "str",
+		"deconz_ws_port": "str"
 	}
 }
