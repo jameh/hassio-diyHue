@@ -10,6 +10,14 @@ if [[ ! -z "$(bashio::config 'deconz_ip')" ]]; then
     export DECONZ="$(bashio::config 'deconz_ip')"
 fi
 
+if [[ ! -z "$(bashio::config 'deconz_web_port')" ]]; then
+    export DECONZ_WEB_PORT="$(bashio::config 'deconz_web_port')"
+fi
+
+if [[ ! -z "$(bashio::config 'deconz_ws_port')" ]]; then
+    export DECONZ_WS_PORT="$(bashio::config 'deconz_ws_port')"
+fi
+
 export NO_SERVE_HTTPS="$(bashio::config 'no_serve_https')"
 
 if [[ -d $CONFIG_PATH ]]; then
